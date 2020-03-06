@@ -16,7 +16,7 @@ public class Houses {
 			for (int i = 0; i < 3; i++) {
 				drawHouse("small", Color.BLUE);
 				drawHouse("medium", Color.DARK_GRAY);
-				drawHouse("large", Color.cyan);
+				drawHouse("large", Color.cyan); 
 			}
 		
 	}
@@ -31,22 +31,29 @@ public class Houses {
 			 house = 100;
 			
 		}else {
-		 house = 150;	
+		 house = 150;
+		 
+		 
 		}
 		shiv.setPenColor(buildingColor);
 		shiv.penDown();
 		shiv.move(house);
-		drawFlatRoof();
+		drawPointyRoof();
 		shiv.move(house);
-		shiv.turn(270);
+	    shiv.turn(270);
 		shiv.setPenColor(0, 255, 17);
 		shiv.move(20);
 		shiv.turn(270);
 		shiv.setPenColor(0,0,0);
 	}
 	void drawPointyRoof() {
-		//write code for pointy roof here
+		shiv.turn(40);
+		shiv.move(20);
+		shiv.turn(100);
+		shiv.move(20);
+		shiv.turn(40);
 		
+
 	}
 	void drawFlatRoof() {
 		shiv.turn(90);
