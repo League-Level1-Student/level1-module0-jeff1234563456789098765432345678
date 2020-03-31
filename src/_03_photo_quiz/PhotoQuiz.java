@@ -34,7 +34,7 @@ public class PhotoQuiz {
 		// 4. add the image to the quiz window
 			quizWindow.add(imageHolder);
 		// 5. call the pack() method on the quiz window
-				quizWindow.pack();
+				quizWindow.pack(); 
 		// 6. ask a question that relates to the image
 				String a = JOptionPane.showInputDialog("Where in India is this wonder of the world");
 		// 7. print "CORRECT" if the user gave the right answer
