@@ -52,7 +52,7 @@ public void actionPerformed(ActionEvent e) {
 	void showDucks() {
 	     playVideo("https://www.youtube.com/watch?v=MtN1YnoL46Q");
 	}
-
+ 
 	void showFrog() {
 	     playVideo("https://www.youtube.com/watch?v=cBkWhkAZ9ds");
 	}
